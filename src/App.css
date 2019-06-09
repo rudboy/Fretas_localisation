@@ -242,7 +242,7 @@ input {
 }
 @media (max-width: 780px) {
   .App-header {
-    width: 95%;
+    width: 100%;
     font-size: 15px;
     background-size: 110px;
   }
