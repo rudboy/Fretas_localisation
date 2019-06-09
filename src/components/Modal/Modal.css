@@ -7,7 +7,7 @@
 }
 
 .modal-header {
-  background: #263238;
+  background: #271c5f;
   height: 40px;
   line-height: 40px;
   padding: 5px 20px;
@@ -27,7 +27,7 @@
 }
 
 .modal-footer {
-  background: #263238;
+  background: #271c5f;
   height: 35px;
   padding: 15px;
 }

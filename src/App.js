@@ -40,7 +40,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>GESTION DES VOITURES</h1>
+          <h1>LOCALISATION VEHICULE</h1>
           <ul className="menu">
             <li
               name="Accueil"
