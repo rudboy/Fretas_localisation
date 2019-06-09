@@ -213,15 +213,6 @@ input {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 @media print {
   body * {
     visibility: hidden;
@@ -235,5 +226,12 @@ input {
   #section-to-print {
     position: absolute;
     zoom: 150%;
+  }
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
   }
 }

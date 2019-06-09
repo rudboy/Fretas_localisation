@@ -81,7 +81,7 @@ class Voiture extends React.Component {
     const value = event.target.value;
     const statesToUpdate = {};
     statesToUpdate[name] = value;
-    console.log(name, value);
+    //console.log(name, value);
 
     if (name === "firstselect") {
       const response = await axios.post(
@@ -137,7 +137,7 @@ class Voiture extends React.Component {
         immat: immatriculation
       }
     );
-    console.log(response.data.length);
+    //console.log(response.data.length);
     // this.setState({ tabTrajet: response.data });
     if (response.data.length === 0) {
       alert("Aucune Info disponible pour se Véhicule");
