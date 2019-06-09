@@ -81,9 +81,3 @@
   padding: 10px;
   font-weight: bold;
 }
-
-@media (max-width: 760px) {
-  .modal-body {
-    height: 280px;
-  }
-}

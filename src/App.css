@@ -251,6 +251,14 @@ input {
     align-items: center;
     justify-content: center;
   }
+  .adminMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .liste {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 760px) {
   .App-header {
@@ -284,12 +292,17 @@ input {
   .password {
     margin-bottom: 20px;
   }
-  .modal-body {
-    height: 250px;
-  }
+
   .modal-body {
     padding: 10px 15px;
-
     margin-bottom: 40px;
+  }
+  .adminMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .liste {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }

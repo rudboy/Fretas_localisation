@@ -94,7 +94,7 @@ class Administration extends React.Component {
                 close={this.closeModalHandler}
                 title={"Menu"}
               >
-                <ul>
+                <ul className="adminMenu">
                   <li
                     className="liste"
                     onClick={() => this.getResponse("add_driver")}
