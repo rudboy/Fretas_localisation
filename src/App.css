@@ -239,6 +239,9 @@ input {
     margin-top: 45px;
     font-size: 18px;
   }
+  li {
+    margin-right: 35px;
+  }
 }
 @media (max-width: 760px) {
   .App-header {
@@ -252,5 +255,8 @@ input {
   }
   h2 {
     font-size: 15px;
+  }
+  li {
+    margin-right: 25px;
   }
 }
