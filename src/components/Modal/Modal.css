@@ -24,6 +24,9 @@
 .modal-body {
   padding: 10px 15px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-footer {
@@ -77,4 +80,10 @@
   margin: 15px;
   padding: 10px;
   font-weight: bold;
+}
+
+@media (max-width: 760px) {
+  .modal-body {
+    height: 300px;
+  }
 }
