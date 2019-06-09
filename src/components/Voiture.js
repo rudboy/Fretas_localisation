@@ -215,9 +215,9 @@ class Voiture extends React.Component {
   render() {
     //console.log(this.state.tabMarque);
     return (
-      <div className="page">
+      <div>
         <h2>Historique des déplacements</h2>
-        <div className="tata">
+        <div>
           {this.state.showModal ? (
             <Modal
               className="modal"
