@@ -229,3 +229,14 @@ input {
 }
 
 /* MEDIA QUERIES */
+@media (max-width: 900px) {
+  .App-header {
+    width: 100%;
+    font-size: 18px;
+    background-size: 150px;
+  }
+  h1 {
+    margin-top: 45px;
+    font-size: 18px;
+  }
+}
